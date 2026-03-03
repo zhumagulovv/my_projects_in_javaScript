@@ -1,17 +1,7 @@
-function sumInArray(arr){
+function sumInArray(arr) {
     return arr.reduce((acc, cur) => cur + acc, 0)
 }
 
-console.log(sumInArray([60, -20, 20, 31]))
+let numbers = [20, 30, 40, 50, 60]
 
-// 60, -20, 20, 31
-// 60, 35, -5, 90
-// 60, 102, 33
-// 60, 104, 35
-// 60, -5, 40, 35
-// 60, -5, 8, 70, 29
-// 60, 100, 35
-// 60, 90, 35
-// -10, 45, -3, -5, 60, 29
-// 50, -5, -3, 60, 33
-// 60, 98, 35
+console.log(sumInArray(numbers))
