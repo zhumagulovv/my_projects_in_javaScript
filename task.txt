@@ -1,0 +1,39 @@
+
+    <!-- 📘 Практическая работа: “Color Changer”
+
+    🎯 Цель: Научиться работать с:
+        querySelector
+        addEventListener
+        изменением стилей через JavaScript
+
+    📌 Задание:
+        Создайте страницу, на которой будет:
+        1 блок (div)
+        5 кнопок
+        При нажатии на каждую кнопку блок должен менять цвет.
+
+    HTML code:
+    <h2>Color Changer App</h2>
+
+    <div class="box">
+        Current color: Gray
+    </div>
+
+    <div class="buttons">
+        <button class="red-btn">Red</button>
+        <button class="blue-btn">Blue</button>
+        <button class="green-btn">Green</button>
+        <button class="yellow-btn">Orange</button>
+        <button class="purple-btn">Purple</button>
+    </div>
+
+    🟢 Требования:
+        Изначально блок должен быть серого цвета.
+        Должны быть 5 кнопок:
+            Red
+            Blue
+            Green
+            Orange
+            Purple
+    Каждая кнопка должна иметь свой отдельный addEventListener.
+    Цвет блока должен меняться в зависимости от нажатой кнопки. -->
