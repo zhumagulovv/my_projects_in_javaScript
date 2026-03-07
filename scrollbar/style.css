@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 1230px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #efb48f;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    list-style-type: none;
+}
+
+.item-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #424551;
+    cursor: pointer;
+}
+
+section {
+    height: 500px;
+    margin: 30px 0;
+}
+
+.about {
+    border: 2px solid red;
+}
+
+.courses {
+    border: 2px solid green;
+}
+
+.events {
+    border: 2px solid orange;
+}
+
+.blog {
+    border: 2px solid purple;
+}
+
+.contacts {
+    border: 2px solid lightgreen;
+}
