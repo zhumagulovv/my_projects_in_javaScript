@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    height: auto;
+    padding: 30px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
+
+button:first-child {
+    background-color: green;
+}
+
+button:last-child {
+    background-color: red;
+}
